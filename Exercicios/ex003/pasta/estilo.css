@@ -1,0 +1,97 @@
+body {color:white;
+	font-family: Arial;
+font-size: pt12;
+background-color: black;
+background-image: url("foto.jp") ;
+background-position:center;
+  }
+
+ p{font-size: 25px;
+ font-family: Arial;
+ letter-spacing: 0.5em;
+ text-align: justify;}
+ .inferior{text-decoration: underline;}
+ .superior{text-decoration: overline;}
+ .centro{text-decoration: line-through;}
+ .pisca{text-decoration: blink;}
+ 
+ i{text-align:center;}
+ 
+ .container{max-width:100px;
+ max-height:100px;
+ width:auto;
+ height:auto;}
+
+#id1{font-size: 24px;
+left: 1500;}
+
+#id2{font-family: verdana;
+color:blue}
+
+.class1{font-size: 10px;}
+
+.class2{font-style: italic;
+font-family: Tahoma;
+color:gray;}
+
+h1{color:white;
+text-decoration: underline;
+font-family: verdana;}
+
+h3{font-family: italic;
+color: purple;
+text-decoration: underline;}
+
+p1{font-family: Arial;
+color: green;}
+
+a:link{
+	background-color: blue
+color:green}
+
+a:visited{}
+
+a:hover{}
+
+a:active{}
+
+ul{
+	font-family: Arial;
+	font-size: 12pt;
+	list-style-image:url(foto1.jp);
+	list-inside-position: inside;}
+
+ul{list-style-type: lower-alpha;}
+
+@media screen and(max-width: 600px){body{
+background:#f9c;}}
+
+div{border-style:solid;
+border-width:2px;
+position:absolute;}
+
+.quadro1 { top:0px;
+width: 202px;
+height: 100px;
+color:red;}
+
+.quadro2 { top:0px;
+width: 200px;
+height: 250px;
+color:white;}
+
+.quadro3 { top:0px;
+left: 210px;
+width: 200px;
+height: 250px;
+color:white;
+border-style: dotted;}
+
+.class3{font-size: 24px;
+left: 200}
+
+.class4{top: 40px;
+font-size: 24px;
+left: 1500
+}
+
